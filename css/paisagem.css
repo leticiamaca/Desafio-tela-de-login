@@ -1,0 +1,79 @@
+@charset "UTF-8";
+ @media screen and (min-width: 700px) {
+
+   
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0C0904;
+    }
+    
+    
+    section{
+        color: #0c0904d0;
+        max-width: 80rem;
+        background-color: #BDA28C; border-radius: 5px;
+        box-shadow: 5px 7px 10px #000000;
+        display: flex;
+        align-items: center;
+       
+       
+    }
+
+   
+    section > img{
+      width: 25rem;
+      height: 100%;
+    }
+    
+    h1{
+       
+        padding-top: 10px ;
+        font-size: 1.3em;
+        text-align: center;
+        
+    }
+    
+    .login{
+       padding: 15px;
+       text-align: center;
+       margin: auto;
+    
+    }
+    
+    #isenha , #inome{
+        width: 10rem;
+        height: 1.5rem;
+      text-align: center;
+      background-color: #0c090448;
+      margin: 3px;
+      
+    }
+    
+    
+    
+    
+    
+    .enviar{
+        padding: 10px;
+        border-radius: 3px;
+        margin: 10px;
+        width: 100px;
+        
+    }
+    
+    a{
+        color: #0c0904d0;
+        text-decoration: none;
+    }
+    
+    a:hover{
+    text-decoration: underline;
+    }
+    
+    
+ }
+
+

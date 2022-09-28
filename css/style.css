@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px){
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+}
+
+body{
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0904;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+section{
+    color: #0c0904d0;
+    max-width: 18rem;
+    background-color: #BDA28C; 
+    border-radius: 7px;
+    box-shadow: 5px 7px 10px #000000;
+    overflow: hidden;
+   
+   
+}
+
+section> img{
+    height: 10rem;
+    width: 20rem;
+}
+.login{
+   padding: 15px;
+   text-align: center;
+   margin: auto;
+
+}
+
+.login >h1{
+   
+    padding-bottom: 10px ;
+    font-size: 1.3em;
+    text-align: center;
+    
+}
+
+.login >p{
+    padding-bottom: 10px ;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+
+#isenha , #inome{
+    width: 10rem;
+    height: 1.5rem;
+  text-align: center;
+  background-color: #0c090448;
+  margin: 3px;
+  
+}
+
+
+
+
+
+.enviar{
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px;
+    width: 100px;
+    
+}
+
+a{
+    color: #0c0904d0;
+    text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
